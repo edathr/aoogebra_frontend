@@ -1,0 +1,42 @@
+{
+  "data": {
+    "books": [
+      {
+        "id": 1,
+        "title": "Gulliver's travels",
+        "imgURL": "https://covers.openlibrary.org/b/id/109034-L.jpg",
+        "author": "Jonathan Swift",
+        "rating": 3.5
+      },
+      {
+        "id": 2,
+        "title": "Gulliver's travels",
+        "imgURL": "https://covers.openlibrary.org/b/id/109034-L.jpg",
+        "author": "Jonathan Swift",
+        "rating": 3.5
+      },
+      {
+        "id": 3,
+        "title": "Gulliver's travels",
+        "imgURL": "https://covers.openlibrary.org/b/id/109034-L.jpg",
+        "author": "Jonathan Swift",
+        "rating": 3.5
+      },
+      {
+        "id": 4,
+        "title": "Gulliver's travels",
+        "imgURL": "https://covers.openlibrary.org/b/id/109034-L.jpg",
+        "author": "Jonathan Swift",
+        "rating": 3.5
+      },
+      {
+        "id": 5,
+        "title": "Gulliver's travels",
+        "imgURL": "https://covers.openlibrary.org/b/id/109034-L.jpg",
+        "author": "Jonathan Swift",
+        "rating": 3.5
+      }
+    ],
+    "total": 40
+  }
+}

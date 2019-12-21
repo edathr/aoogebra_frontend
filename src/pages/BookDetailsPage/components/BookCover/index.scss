@@ -1,0 +1,79 @@
+@import '@themes/themeVariables.scss';
+
+.book-cover__container {
+  padding: 1.5rem;
+
+  .book-cover-img__container {
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.16);
+    border: solid 6px #ffffff;
+  }
+
+  .interest-btn-group {
+    margin-top: 2rem;
+
+    .interest-btn {
+      height: 40px;
+      width: 150px;
+      margin: 1rem auto;
+      display: block;
+      border: solid 1px $secondary-color;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+
+      & > * {
+        color: $primary-color;
+        font-weight: 800;
+      }
+
+      &:hover {
+        background: lighten($primary-color, 20%);
+      }
+    }
+  }
+
+  .interest-status__container {
+    margin-top: 2rem;
+
+    .faveit-btn {
+      height: 40px;
+      width: 150px;
+      margin: 1rem auto;
+      display: block;
+      background: $red-orange;
+      border: none;
+
+      &:hover {
+        background: lighten($red-orange, 5%);
+      }
+
+      & > * {
+        color: white;
+        font-weight: 800;
+      }
+
+      i {
+        font-size: 14px;
+      }
+    }
+
+    .faveit-loginmessage {
+      margin-right: 0.5rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .interest-status__statistic-container {
+      text-align: center;
+
+      .people-count {
+        margin-right: 0.5rem;
+        color: $primary-color;
+        font-weight: 800;
+        font-size: 16px;
+      }
+    }
+  }
+}

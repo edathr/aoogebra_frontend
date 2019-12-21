@@ -1,0 +1,47 @@
+@import './themeVariables.scss';
+
+@mixin card() {
+  border-radius: 5px;
+}
+
+@mixin boxShadow($opacity) {
+  box-shadow: 0 30px 40px 0 rgba(0, 0, 0, $opacity);
+}
+
+@mixin noFocusOutline() {
+  &:focus {
+    outline: none;
+  }
+}
+
+@mixin overflowScrollY() {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@mixin noScrollBar() {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin chromeCustomScrollbar() {
+  & {
+    scroll-behavior: smooth;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: $primary-border-color;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: transparent;
+  }
+}

@@ -1,0 +1,28 @@
+@import '@themes/themeVariables.scss';
+
+.progressive-image-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  .progressive-image-placeholder {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    transition: all 0.2s linear;
+    background: $dark-gray;
+    opacity: 1;
+
+    &.hide {
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+      opacity: 0.5;
+    }
+
+    .progressive-image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

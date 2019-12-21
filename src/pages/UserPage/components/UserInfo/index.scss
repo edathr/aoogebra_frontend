@@ -1,0 +1,49 @@
+@import '@themes/themeVariables.scss';
+
+.user-info__container {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .user-info__membership-container {
+    height: 220px;
+    padding: 0 2rem;
+  }
+
+  .user-info__relation-container {
+    height: 100%;
+    min-width: 440px;
+    padding: 0 2rem;
+
+    .user-info-username {
+      color: $primary-color;
+      font-size: 24px;
+      font-weight: 500px;
+      text-align: center;
+    }
+
+    .user-follow-btn {
+      &:hover {
+        border-color: $secondary-color;
+      }
+
+      &:active {
+        border-color: $primary-color;
+      }
+
+      width: 200px;
+      height: 40px;
+      border-radius: calc(40px / 2);
+      box-shadow: 0 0 6px 0 rgba(59, 85, 230, 0.42);
+      border: solid 5px $secondary-button-color;
+      background: white;
+      text-align: center;
+      color: $primary-color;
+      font-weight: 800;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}

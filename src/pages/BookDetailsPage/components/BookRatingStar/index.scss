@@ -1,0 +1,14 @@
+@import '@themes/themeVariables.scss';
+
+.book-rating-star__container {
+  display: inline-block;
+  .rating-star {
+    margin: 0 0.5rem;
+    color: $red-orange;
+  }
+  .rating-value-text {
+    margin: 0 0.5rem;
+    font-size: 16px;
+    color: $primary-background-color;
+  }
+}

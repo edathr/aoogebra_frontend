@@ -1,0 +1,117 @@
+@import '@themes/themeMixins.scss';
+@import '@themes/themeVariables.scss';
+
+$filter-bar-radius: calc(45px / 2);
+
+.filter-bar {
+  height: 45px;
+  min-height: 45px;
+  width: 60%;
+  max-width: 680px;
+  display: flex;
+  box-shadow: 0 0 20px 0 rgba(151, 166, 186, 0.4);
+  border: none;
+  border-radius: $filter-bar-radius;
+
+  &.center {
+    margin: 0 auto;
+  }
+
+  &.right {
+    margin: 0 0 0 auto;
+  }
+
+  &.left {
+    margin: 0 auto 0 0;
+  }
+
+  .filter-autocomplete__container {
+    height: 100%;
+    width: calc(100% - 90px);
+
+    .ant-select-selection {
+      height: 100%;
+      background: transparent;
+
+      .ant-select-selection__rendered {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 21px;
+        padding-left: 3rem;
+        margin: 0;
+
+        .ant-select-selection__placeholder {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          display: block !important;
+
+          .search-icon {
+            height: 100%;
+            display: flex !important;
+            align-items: center;
+            margin-left: 1rem;
+            font-size: 21px;
+            color: $primary-background-color;
+          }
+        }
+
+        ul {
+          height: 100%;
+          width: 100%;
+
+          .ant-select-search__field {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+  .filter-button {
+    height: 100%;
+    width: 90px;
+    border: none;
+    border-radius: $filter-bar-radius;
+    color: $secondary-text-color;
+    font-weight: bold;
+  }
+}
+
+.filter-autocomplete-dropdown__container {
+  width: 60% !important;
+  max-width: 680px !important;
+  border-radius: $filter-bar-radius;
+  @include overflowScrollY();
+
+  .ant-select-dropdown-menu {
+    .ant-select-dropdown-menu-item-disabled {
+      padding: 0;
+    }
+
+    .search-result__option {
+      height: 45px;
+      padding-left: 1rem;
+      font-size: 21px;
+      line-height: 35px;
+
+      .search-result-icon {
+        margin-right: 0.5rem;
+        color: $primary-background-color;
+      }
+    }
+  }
+
+  .filter-spining-icon {
+    display: flex;
+    padding: 12px 1rem;
+
+    span {
+      font-size: 21px;
+    }
+  }
+}

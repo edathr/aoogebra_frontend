@@ -1,0 +1,93 @@
+@import '@themes/themeVariables.scss';
+
+$btn-radius: calc(45px / 2);
+
+.auth-form__container {
+  height: 100%;
+
+  .form__container {
+    .ant-form-item-label {
+      margin-left: $btn-radius;
+      font-weight: 800;
+      line-height: 30px;
+    }
+
+    .ant-form-explain {
+      position: relative;
+      margin-left: $btn-radius;
+    }
+
+    .form-input {
+      .form-icon {
+        margin-left: 0.5rem;
+        font-size: 18px;
+        color: $primary-background-color;
+      }
+
+      .ant-input {
+        height: 45px;
+        padding-left: 3rem;
+        border-radius: $btn-radius;
+        border: solid 1px $secondary-border-color;
+        background: $form-background-color;
+        color: $form-text-color;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+
+    .password-input {
+      .ant-input {
+        font-weight: 800;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .form-submit-btn {
+    height: 45px;
+    background: $primary-background-color;
+    font-weight: 800;
+
+    &:hover,
+    &:active {
+      background: $primary-color;
+    }
+  }
+
+  .form-divider {
+    font-weight: 800;
+    font-size: 14px;
+    color: $form-text-color;
+
+    &:before,
+    &:after {
+      border-color: $primary-border-color;
+    }
+  }
+
+  .social-btn-group {
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+
+    .social-btn {
+      height: 45px;
+      width: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $primary-background-color;
+
+      &:hover,
+      &:active {
+        background: $primary-color;
+      }
+
+      i {
+        height: 25px;
+        font-size: 25px;
+      }
+    }
+  }
+}

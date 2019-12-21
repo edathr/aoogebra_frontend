@@ -1,0 +1,19 @@
+@import '@themes/themeMixins.scss';
+@import '@themes/themeVariables.scss';
+
+.app-layout__main-container {
+  height: 100%;
+  width: 100%;
+  padding: 2rem 4rem;
+  overflow: hidden;
+  background: $primary-background-color;
+
+  .app-layout__container {
+    @include card();
+    @include boxShadow(0.45);
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+  }
+}
+

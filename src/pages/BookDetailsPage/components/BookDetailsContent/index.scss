@@ -1,0 +1,12 @@
+@import '@themes/themeVariables.scss';
+
+.book-details__container {
+  & > * {
+    font-size: 14px;
+  }
+
+  .book-details__header {
+    margin-right: 0.5rem;
+    color: $primary-color;
+  }
+}

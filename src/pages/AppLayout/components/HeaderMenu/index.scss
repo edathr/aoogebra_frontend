@@ -1,0 +1,83 @@
+@import '@themes/themeVariables.scss';
+
+.header-menu__container {
+  border-bottom: 1px solid $primary-border-color;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+
+  .menu__container {
+    width: 90%;
+    border: none;
+
+    & * {
+      font-weight: bold;
+    }
+
+    .ant-menu-submenu-title {
+      .submenu-title__container {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .signin__container {
+    height: 100%;
+    width: 10%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover > * {
+      color: $primary-background-color;
+    }
+
+    .user-icon {
+      font-size: 26px;
+      margin: 0 0.5rem;
+    }
+  }
+}
+
+.submenu__container {
+  max-width: 800px;
+
+  .ant-menu:not(.ant-menu-hidden) {
+    display: flex;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+
+    .ant-menu-item-active {
+      color: $primary-background-color;
+    }
+
+    .menu-item-group__genres-container {
+      padding: 0.5rem;
+      background: lighten($primary-color, 18%);
+
+      .ant-menu-item-group-title {
+        display: none;
+      }
+      .ant-menu-item {
+        height: 30px;
+        width: 25%;
+        padding: 0 0 0 16px;
+        display: inline-block;
+        margin: 0;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .signin__container {
+    .signin-text {
+      display: none;
+    }
+  }
+}

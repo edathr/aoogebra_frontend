@@ -1,0 +1,20 @@
+@import '@themes/themeMixins.scss';
+
+.results-page__main-container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .results-page__content {
+    @include overflowScrollY();
+    @include chromeCustomScrollbar();
+    width: 65%;
+    margin: 2rem auto 0;
+    flex: 1 0;
+  }
+
+  .results-page__pagination {
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+}

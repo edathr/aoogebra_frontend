@@ -1,0 +1,93 @@
+@import '@themes/themeVariables.scss';
+
+@mixin hightlight {
+  color: $primary-background-color;
+}
+
+.book-review__container {
+  width: 100%;
+  display: flex;
+
+  .book-review__image-container {
+    height: 180px;
+    width: 120px;
+    min-width: 120px;
+    margin: 0 3rem 0 1rem;
+    display: inline-block;
+    object-fit: cover;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .book-review-content__container {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .book-review {
+      .ant-typography-expand {
+        visibility: hidden;
+        word-spacing: -999px;
+        letter-spacing: -999px;
+        white-space: nowrap;
+
+        &:after {
+          visibility: visible;
+          content: 'read more';
+          word-spacing: normal;
+          letter-spacing: normal;
+        }
+      }
+    }
+
+    .book-review-details__container {
+      display: flex;
+      align-items: flex-end;
+
+      .author-name {
+        @include hightlight();
+        &:hover {
+          color: $primary-color;
+        }
+        margin: 0 0.5rem;
+
+        cursor: not-allowed;
+      }
+
+      .author-name:not(.author-name-disabled) {
+        cursor: pointer;
+      }
+
+      .book-review-details-divider {
+        font-size: 20px;
+      }
+
+      .review-timestamp {
+        @include hightlight();
+        margin: 0 0.5rem;
+      }
+
+      .book-review-details-rating__container {
+        margin-left: auto;
+        .book-review-details-rating-star {
+          margin: 0 0.5rem;
+          color: $red-orange;
+        }
+
+        .book-review-detials-rating-value {
+          width: 30px;
+          display: inline-block;
+          margin: 0 0.5rem;
+          color: $red-orange;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

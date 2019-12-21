@@ -1,0 +1,8 @@
+{
+  "data": {
+    "username": "John Doe",
+    "num_reviews": 64,
+    "avg_rating": 3.5,
+    "num_favourite_books": 3
+  }
+}

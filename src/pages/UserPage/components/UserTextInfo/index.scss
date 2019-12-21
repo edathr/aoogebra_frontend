@@ -1,0 +1,46 @@
+@import '@themes/themeVariables.scss';
+
+$custom-fontsize: 16px;
+
+.user-text-info__container {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & span {
+    margin: 0 3px;
+  }
+
+  .user-followers {
+    margin-bottom: 1rem;
+
+    .user-name {
+      max-width: 215px;
+      color: $primary-color;
+      font-weight: 800;
+      font-size: $custom-fontsize;
+      vertical-align: bottom;
+    }
+    .user-num-reviews {
+      font-weight: 800;
+      font-size: $custom-fontsize;
+    }
+  }
+
+  .user-review-rating {
+    margin-bottom: 1rem;
+    .user-input-review-rating {
+      font-weight: 800;
+      font-size: $custom-fontsize;
+    }
+  }
+
+  .user-fave-books {
+    margin-bottom: 1rem;
+    .user-input-fave-books {
+      font-weight: 800;
+      font-size: $custom-fontsize;
+    }
+  }
+}

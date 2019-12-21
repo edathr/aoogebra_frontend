@@ -1,0 +1,29 @@
+@import '@themes/themeVariables.scss';
+
+.home-page__container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  overflow: hidden;
+
+  .home-page-greeting__header {
+    font-weight: 300 !important;
+    line-height: 42px;
+    min-height: 42px;
+  }
+
+  .home-page-loading__container {
+    min-height: 384px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loading-icon {
+      display: inline-block;
+      font-size: 60px;
+      color: $primary-color;
+    }
+  }
+}

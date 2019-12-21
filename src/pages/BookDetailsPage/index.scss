@@ -1,0 +1,24 @@
+@import '@themes/themeMixins.scss';
+
+.book-details-page__main-container {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .book-details-page__content-container {
+    @include overflowScrollY();
+    @include chromeCustomScrollbar();
+    flex: 1 0;
+    margin-top: 2rem;
+
+    .book-details-page__main-details-container {
+      padding-right: 4rem;
+
+      .book-details-page__tab-menu-container {
+        padding-top: 2rem;
+      }
+    }
+  }
+}

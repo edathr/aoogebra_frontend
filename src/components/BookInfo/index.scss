@@ -1,0 +1,63 @@
+@import '@themes/themeVariables.scss';
+
+.book-info__container {
+  width: 100%;
+  padding: 0 1rem;
+
+  .book-info__list-container {
+    padding-bottom: 1.5rem;
+
+    .book-title {
+      &:hover {
+        color: $primary-color;
+      }
+      margin: 0;
+      display: inline-block;
+      vertical-align: bottom;
+      color: $subheading-text-color1;
+      cursor: pointer;
+    }
+
+    .book-author {
+      font-size: 16px;
+      color: $subheading-text-color2;
+    }
+
+    .ant-list-item {
+      &:last-child {
+        border: none !important;
+      }
+
+      .ant-list-item-meta-description {
+        font-size: 16px;
+      }
+
+      .ant-list-item-meta-avatar {
+        margin-right: 2rem;
+
+        .book-image__container {
+          height: 180px;
+          width: 120px;
+          object-fit: cover;
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+
+          .book-rating {
+            position: relative;
+            top: -40px;
+            right: -60%;
+            height: 40px;
+            width: 60%;
+            display: block;
+            background: $primary-background-color;
+            border-radius: 20px 20px 20px 0;
+            color: white;
+            font-size: 16px;
+            font-weight: 800;
+            text-align: center;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+}

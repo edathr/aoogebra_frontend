@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": -1.0
+    },
+    {
+      "id": 2,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": -1.0
+    },
+    {
+      "id": 3,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 4,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 4.5
+    },
+    {
+      "id": 5,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 4.5
+    },
+    {
+      "id": 6,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 4.5
+    },
+    {
+      "id": 7,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": -1.0
+    },
+    {
+      "id": 8,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 3.0
+    },
+    {
+      "id": 9,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.0
+    },
+    {
+      "id": 10,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 11,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 12,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 13,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 14,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 15,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 16,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 2.5
+    },
+    {
+      "id": 17,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 1.5
+    },
+    {
+      "id": 18,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 1.0
+    },
+    {
+      "id": 19,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 1.0
+    },
+    {
+      "id": 20,
+      "title": "Gulliver's travels",
+      "imgURL": "https://covers.openlibrary.org/b/id/109034-M.jpg",
+      "author": "Jonathan Swift",
+      "rating": 3.5,
+      "userRating": 4.0
+    }
+  ]
+}

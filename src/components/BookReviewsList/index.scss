@@ -1,0 +1,7 @@
+.book-reviews-list__container {
+  .ant-list-item {
+    &:last-child {
+      border: none !important;
+    }
+  }
+}

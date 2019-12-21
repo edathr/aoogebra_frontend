@@ -1,0 +1,21 @@
+@import '@themes/themeVariables.scss';
+
+$bubble-radius: calc(40px / 2);
+
+.book-rating-bubble__container {
+  &.book-rating-bubble-user-rating {
+    background: $primary-background-color;
+  }
+
+  width: 100px;
+  height: 40px;
+  margin: 0 1rem;
+  display: inline-block;
+  background: $peach;
+  border-radius: $bubble-radius $bubble-radius $bubble-radius 0;
+  font-size: 15px;
+  font-weight: 800;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+}

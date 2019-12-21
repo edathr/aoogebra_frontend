@@ -1,0 +1,111 @@
+@import '@themes/themeMixins.scss';
+@import '@themes/themeVariables.scss';
+
+@mixin bannerStyling() {
+  height: 300px;
+  min-width: calc(400px + 4rem);
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px $primary-border-color;
+  border-width: 1px 0 1px 0;
+
+  & > * {
+    color: $secondary-text-color;
+  }
+}
+
+.authenticate-page__main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: $primary-background-color;
+
+  .authenticate-page__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .app-name__container {
+      @include bannerStyling();
+
+      .app-name {
+        margin: 0 2rem;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 400;
+      }
+    }
+
+    .authenticate-page__form-container {
+      @include card();
+      @include boxShadow(0.15);
+      width: 400px;
+      min-width: 400px;
+      background: $secondary-background-color;
+
+      .form-tab__container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .ant-tabs-bar {
+          border: none;
+
+          .ant-tabs-nav {
+            width: 100%;
+            .ant-tabs-tab {
+              width: 50%;
+              margin: 0;
+              text-align: center;
+              font-weight: 800;
+              color: $disable-text-color;
+            }
+            .ant-tabs-tab-active {
+              color: $primary-text-color;
+            }
+
+            .ant-tabs-ink-bar {
+              left: 10%;
+              width: 30% !important;
+              margin: 0 auto;
+              text-align: center;
+              background-color: $primary-background-color;
+            }
+          }
+        }
+
+        .ant-tabs-content {
+          flex: 1 0;
+
+          .form-pane__container {
+            padding: 0 5% 10%;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .motivation-slogan__container {
+      @include bannerStyling();
+
+      & > * {
+        font-size: 16px;
+        margin: 0 6rem;
+      }
+
+      .motivation-slogan {
+        text-align: right;
+        font-weight: 500;
+      }
+
+      .author {
+        display: block;
+        text-align: right;
+      }
+    }
+  }
+}
